@@ -1,0 +1,30 @@
+{
+  "name": "json-mixin",
+  "version": "0.0.1",
+  "description": "A simple JSON mixin library.",
+  "main": "json-mixin.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adriankral/json-mixin.git"
+  },
+  "keywords": [
+    "JSON",
+    "json",
+    "mixin",
+    "json-mixin"
+  ],
+  "author": "Adrian Rudolf Kral <adriankral@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "a2972e4b84a2f371ccc6a685efd4bf4390563827"
+}

@@ -1,0 +1,7 @@
+var JsonMixin = require('./json-mixin.js').JsonMixin;
+var mixin = new JsonMixin();
+mixin.addMixin({"name": "Mariusz", "details": {"age": 22, "gender": "votes-against"} }, "mixin1");
+mixin.addMixin({"name": "Dariusz", "interests": ["js"] }, "mixin2");
+var toMix = {"#mixin": ["mixin1", "mixin2"], "details": {"something-else": true} };
+toMix = mixin.apply(toMix);
+console.log(toMix);
